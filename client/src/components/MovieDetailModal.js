@@ -36,7 +36,7 @@ export default class MovieDetailModal extends Component{
         const filmTitle = this.props.movie.title;
         confirmAlert({
             title: 'Confirm Delete',
-            message: 'Are you sure you want to delete ' + filmTitle + ' ?',
+            message: 'Are you sure you want to delete ' + filmTitle + '?',
             buttons: [
               {
                 label: 'Yes',
